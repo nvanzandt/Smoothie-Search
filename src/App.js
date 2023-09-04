@@ -14,7 +14,7 @@ function App() {
   // Creates state, function to alter state, and inital value of state
   const[recipes, setRecipes] = useState([]); // List of hits from api fetching
   const[search, setSearch] = useState(''); // Search input string
-  const[query, setQuery] = useState('');
+  const[query, setQuery] = useState(''); // Final search input string
 
   // Effects
   // Runs after page renders or when [] is updated
