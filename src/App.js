@@ -11,10 +11,10 @@ function App() {
   const APP_KEY = '05c7563e42cd2ea9bf0a1e9018f2b1ec';
  
   // States
-  // Creates state, function to alter state, and inital value of state
+  // Creates state, function to alter state, data type, and inital value of state
   const[recipes, setRecipes] = useState([]); // List of hits from api fetching
-  const[search, setSearch] = useState(''); // Search input string
-  const[query, setQuery] = useState(''); // Final search input string
+  const[search, setSearch] = useState(''); // String input 
+  const[query, setQuery] = useState(''); // Final String input
 
   // Effects
   // Runs after page renders or when [] is updated
