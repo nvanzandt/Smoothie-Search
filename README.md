@@ -4,7 +4,7 @@ The goal of this project was to practice React.js and API fetching.
 
 This website uses the Edamam Recipe Search API which allows you to search a recipe database of over 2.3 million recipes.
 
-### I familizarized myself with 
+### I familiarized myself with 
 - React.js Hooks (State/Effect)
 - Asynchronous API (async/await)
 - JSX, components, props, css modules, etc.
