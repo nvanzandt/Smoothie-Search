@@ -2,7 +2,6 @@ import React,{useEffect, useState} from 'react';
 import Recipe from'./Recipe';
 import './App.css';
 import { AiOutlineSearch } from "react-icons/ai";
-import { BsCupStraw } from "react-icons/bs";
 
 
 function App() {
@@ -52,8 +51,8 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1 className="title"><BsCupStraw size={60} style={{marginBottom: 10}}/>Smoothie Search</h1>
-        <p className="directions">Enter the ingredients you want in your smoothie! (e.g.: strawberry, banana, ice) <br/> Note: There is a limit of 10 searches/min</p>
+        <h1 className="title">Smoothie Search</h1>
+        <p className="directions">Enter the ingredients you want in your smoothie! (e.g.: strawberry, banana, ice)</p>
         <form onSubmit={getSearch} className="search-form"> 
           <input className="search-bar" type="text" value={search} onChange={updateSearch} />
           <button className="search-button" type="submit">
