@@ -10,5 +10,5 @@ This website uses the Edamam Recipe Search API which allows you to search a data
 - JSX, components, props, css modules, etc.
 
 ## Video
-https://github.com/nvanzandt/Smoothie-Search/assets/135445498/7b3c75a6-4877-4709-a6cf-1df0e640df54
+https://github.com/nvanzandt/Smoothie-Search/assets/135445498/249c0ff2-b843-4960-b30a-c8def1ef3b59
 
