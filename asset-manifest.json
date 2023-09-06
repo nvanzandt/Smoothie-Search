@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Smoothie-Search/static/css/main.66d9bd27.css",
+    "main.css": "/Smoothie-Search/static/css/main.84bcf19f.css",
     "main.js": "/Smoothie-Search/static/js/main.023cad31.js",
     "static/js/787.0384b257.chunk.js": "/Smoothie-Search/static/js/787.0384b257.chunk.js",
     "index.html": "/Smoothie-Search/index.html",
-    "main.66d9bd27.css.map": "/Smoothie-Search/static/css/main.66d9bd27.css.map",
+    "main.84bcf19f.css.map": "/Smoothie-Search/static/css/main.84bcf19f.css.map",
     "main.023cad31.js.map": "/Smoothie-Search/static/js/main.023cad31.js.map",
     "787.0384b257.chunk.js.map": "/Smoothie-Search/static/js/787.0384b257.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66d9bd27.css",
+    "static/css/main.84bcf19f.css",
     "static/js/main.023cad31.js"
   ]
 }
