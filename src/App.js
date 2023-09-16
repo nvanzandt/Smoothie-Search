@@ -2,6 +2,7 @@ import React,{useEffect, useState} from 'react';
 import Recipe from'./Recipe';
 import './App.css';
 import { AiOutlineSearch } from "react-icons/ai";
+import { BsCupStraw } from "react-icons/bs";
 
 
 function App() {
@@ -51,7 +52,9 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1 className="title">Smoothie Search</h1>
+        <h1 className="title">
+          <BsCupStraw style={{height: 60, marginBottom: -1.5 }}/>
+          Smoothie Search</h1>
         <p className="directions">Enter the ingredients you want in your smoothie! (e.g.: strawberry, banana, ice)</p>
         <form onSubmit={getSearch} className="search-form"> 
           <input className="search-bar" type="text" value={search} onChange={updateSearch} />
