@@ -2,7 +2,6 @@
   display: flex; 
   flex-direction: column;
   align-items: center; 
-  justify-content: center;
   background-color: #fbc2eb;
   min-height: 100vh;
   margin: 0px;
@@ -76,10 +75,6 @@
   align-items: center; 
 } 
 
-.footer { 
-  height: 7vh;
-  width: 100%;
-  background-color: #a18cd1; 
-  text-align: center;
-  line-height: 7vh;
+footer { 
+  margin-bottom: 10px;
 }
