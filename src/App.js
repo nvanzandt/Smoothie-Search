@@ -27,13 +27,18 @@ function App() {
   * the rest of the code after the call is still executed.
   */
   const getRecipes = async () => { 
+    // Clear the "recipes" state
+    setRecipes([]);
+
+    // Fetch data from api
     const response = await fetch(`https://api.edamam.com/api/recipes/v2?type=public&q=${query}%20smoothie&app_id=${APP_ID}&app_key=${APP_KEY}&dishType=Drinks`);
     const data = await response.json(); 
     // Show all recipes in console
     console.log(data.hits);
-    // Store the recipes in the "recipes" state
+    // Set the "recipes" state to the list of hits from the api
     setRecipes(data.hits);
-  }
+};
+  
 
   // Update the "search" state with the input value
   const updateSearch = e => { 
@@ -78,7 +83,7 @@ function App() {
           />
         ))}
       </div>
-      <footer className="footer">Thanks for visiting my page!</footer>
+      <footer>Thanks for visiting my page!</footer>
     </div>
   );
 }
