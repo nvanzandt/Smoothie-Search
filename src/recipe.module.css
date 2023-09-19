@@ -16,6 +16,12 @@
   margin-bottom: 40px; 
 }
 
+@media (max-width: 600px) {
+  .recipe { 
+    width: 100%;
+  }
+}
+
 h1 { 
   text-align: center;
   width: 95%;
