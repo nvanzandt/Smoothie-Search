@@ -2,17 +2,18 @@
 * Styles only relate to Recipe module. Allows for classes to have same 
 * name, but different styles.
 */
+
 .recipe { 
-  border-radius: 10px; 
-  box-shadow: 0px 5px 20px rgb(72, 72, 72);
-  margin-bottom: 40px; 
   width: 70%;
   max-width: 550px;
   display: flex; 
   flex-direction: column; 
   align-items: center; 
   justify-content: center;
+  border-radius: 10px; 
+  box-shadow: 0px 5px 20px rgb(72, 72, 72);
   background-color: white; 
+  margin-bottom: 40px; 
 }
 
 h1 { 
