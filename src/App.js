@@ -83,7 +83,6 @@ function App() {
           />
         ))}
       </div>
-      <footer>Thanks for visiting my page!</footer>
     </div>
   );
 }
