@@ -1,4 +1,4 @@
-# 🍹 Smoothie Search
+# Smoothie Search
 
 The goal of this project was to practice React.js and API fetching. 
 
